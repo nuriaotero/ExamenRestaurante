@@ -1,0 +1,19 @@
+{
+    "name": "formacom/mvc",
+    "description": "Framework mvc",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Formacom"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^12.44"
+    }
+}
